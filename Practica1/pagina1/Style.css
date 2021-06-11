@@ -1,0 +1,98 @@
+* { 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-image: url(../imagenes/imagen1.jpg);
+    background-repeat: no-repeat;
+background-position: center ;
+background-attachment: fixed;
+background-size: cover;
+    
+   
+}
+.registro {
+width: 400px;
+background-image: url(../imagenes/fondo.jpg) ;
+background-position: 100%;
+padding: 38px;
+margin: auto;
+margin-top: 100px;
+border-radius: 4px;
+font-family:'calibri';
+color: white;
+box-shadow: 7px 20px 40px #000;
+}
+.registro h1{
+font-size: 22px ;
+margin-bottom: 20px;
+color: white;
+}
+.controles{
+    width: 100%;
+    background-color: rgb(11, 22, 117);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid rgb(10, 199, 233);
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+    
+
+}
+.registro h2{
+height: 25px;
+text-align: center;
+font-size: 22px;
+color:  white;
+}
+.registro a {
+    color:white;
+    text-decoration: none;
+}
+.registro a:hover {
+    color:white;
+    text-decoration: underline;
+}
+.registro .boton{
+    width: 100%;
+    background-color: rgb(11, 22, 117);
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.registro p{
+   text-align: center; 
+}
+.Despedida{
+    width: 700px;
+    height: 500px;
+    background-image: url(../imagenes/fondo.jpg) ;
+    background-position: 100%;
+    padding: 38px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family:'calibri';
+    color: white;
+    box-shadow: 7px 20px 40px #000;  
+}
+.Despedida h2{
+    height: 25px;
+text-align: center;
+font-size: 32px;
+color:  rgb(209, 255, 2);
+text-shadow: 2px 2px #FF0000;
+}
+.Despedida .video{
+    width: 600px;
+    height: 400px;
+    border: none;
+    padding: 20px;
+    
+}
+
